@@ -48,5 +48,3 @@ def scrape_api():
     result = scrape_medium_blog(url)
     return jsonify(result)
 
-if __name__ == "__main__":
-    app.run(debug=True)

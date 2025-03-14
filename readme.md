@@ -32,16 +32,20 @@ This is a Flask-based web scraper that extracts blog posts from a given Medium U
 ### Running Locally
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/medium-scraper.git
+   git clone https://github.com/ahn1305/medium-scraper.git
    cd medium-scraper
    ```
 2. Install dependencies:
    ```sh
    pip install -r requirements.txt
    ```
-3. Run the Flask application:
+3. Set the Flask app environment variable:
    ```sh
-   python app.py
+   export FLASK_APP=api.py
+   ```
+4. Run the Flask application:
+   ```sh
+   flask run --host=0.0.0.0 --port=5000
    ```
 
 ## API Usage
@@ -64,4 +68,3 @@ curl "http://localhost:5000/scrape?url=https://medium.com/example-blog"
 
 ## License
 This project is open-source and available under the MIT License.
-
