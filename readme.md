@@ -1,10 +1,10 @@
 # Medium Blog Scraper
 
-This is a Flask-based web scraper that extracts blog posts from a given Medium URL. The application scrapes the blog titles, descriptions, and post URLs and returns them in a JSON format.
+This is a Flask-based web scraper that extracts blog posts from a given Medium URL. The application scrapes the blog titles and post URLs and returns them in a JSON format.
 
 ## Features
 - Scrapes Medium blog posts
-- Extracts title, description, and post URL
+- Extracts title and post URL
 - Provides API access via a simple GET request
 
 ## Technologies Used
@@ -60,7 +60,6 @@ curl "http://localhost:5000/scrape?url=https://medium.com/example-blog"
   {
     "pno": 1,
     "title": "Sample Blog Title",
-    "description": "Short blog description.",
     "url": "https://medium.com/example-blog/post"
   }
 ]
