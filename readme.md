@@ -1,4 +1,4 @@
-# Medium Blog Scraper
+# Medium Blog Scraper API (Unofficial)
 
 This is a Flask-based web scraper that extracts blog posts from a given Medium URL. The application scrapes the blog titles and post URLs and returns them in a JSON format.
 
